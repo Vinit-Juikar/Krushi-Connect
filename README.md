@@ -1,4 +1,4 @@
-# Krashak.AI
+# Krushi-Connect
 ![Hackathon (2)](https://user-images.githubusercontent.com/55245862/207863094-f5fc2d07-5584-45d7-be02-3695dd90c71b.png)
 
 > Problem Statement (AGRI12)

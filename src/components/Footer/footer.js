@@ -19,7 +19,7 @@ const Footer = () => {
           >
             <img src={logo} className="footerLogo" alt="" />
             <div className="ml-4">
-              <h3 className="text-2xl text-white font-bold mt-4">Krashak.AI</h3>
+              <h3 className="text-2xl text-white font-bold mt-4">Krushi-Connect</h3>
               <p className="text-md font-normal text-white mt-2">
                 WeAreFarmerVoice
               </p>
@@ -29,19 +29,19 @@ const Footer = () => {
         <div className="flex-1 px-16 border-r-2 border-black-600">
           <div className="flex">
             <ul className="list-none mr-24">
-              <li
+              {/* <li
                 className="text-lg text-white font-bold cursor-pointer"
                 onClick={() => navigate("/")}
               >
                 Home
-              </li>
+              </li> */}
               {/* <li className='text-lg text-white font-medium cursor-pointer'>Menu</li> */}
-              <li
+              {/* <li
                 className="text-lg text-white font-medium cursor-pointer"
                 onClick={() => navigate("/sms")}
               >
                 SMS Service
-              </li>
+              </li> */}
             </ul>
             <ul>
               <li
@@ -105,12 +105,12 @@ const Footer = () => {
             Made by : <strong>Team Geeks_on_Fire</strong>
           </p>
         </div>
-        <div className="flex-1 flex mr-6">
+        {/* <div className="flex-1 flex mr-6">
           <img src={footerBg} className="footerBgImg" alt="" />
           <h1 className="text-xl text-white font-bold mt-6">
             Ministry of agriculture and farmer's welfare
           </h1>
-        </div>
+        </div> */}
       </div>
     </div>
   );

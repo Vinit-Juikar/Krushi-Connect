@@ -12,7 +12,7 @@ class CardBar extends Component {
             HOW KRASHAK HELPS
           </p>
           <p className="text-xl font-medium text-center text-gray-500 ">
-            Being a part of Krashak.AI, these are our mainstays
+            Being a part of Krushi-Connect, these are our mainstays
           </p>
         </div>
         <div className="grid place-items-center mt-14 mb-20">

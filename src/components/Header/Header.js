@@ -16,7 +16,7 @@ const Header = () => {
             className="logoWeb"
             alt=""
           />
-          <h3 className="text-md font-bold opacity-[.70]">Krashak.AI</h3>
+          <h3 className="text-md font-bold opacity-[.70]">Krushi-Connect</h3>
         </div>
         <div className="flex-2 w-6/12 mx-auto">
           <ul className="flex mt-4 items-around">
@@ -50,12 +50,12 @@ const Header = () => {
             >
               Disease Prediction
             </li>
-            <li
+            {/* <li
               onClick={() => navigate("/sms")}
               className="text-sm cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
             >
               SMS Service
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -17,7 +17,7 @@ input:focus {
     outline: none;
 }
 
-body>.skiptranslate {
+body > .skiptranslate {
     display: none;
 }
 
@@ -46,4 +46,19 @@ body>.skiptranslate {
     color: green !important;
     border: 1px solid green !important;
     outline: none;
+}
+
+/* CSS animation for gradient color effect */
+@keyframes changeColor {
+    0% { background-position: 0 0; }
+    100% { background-position: 200% 0; }
+}
+
+.animate-color {
+    background: linear-gradient(to right, #ffff00, #40ff00, #00bfff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200% 100%; /* Double the size of the gradient */
+    animation: changeColor 5s linear infinite;
 }
